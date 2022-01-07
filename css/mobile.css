@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #ff5b5b;
+  --second-color: #4e4e4e;
+  --third-color: #777777;
+  --bg-color: #f3f6ff;
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .bg_body {
+    height: 120vh;
+  }
+  .container {
+    max-width: 300px;
+  }
+
+  .nav_menu {
+    display: none;
+  }
+
+  .nav_sub {
+    display: none;
+  }
+
+  .responsive_icon_nav {
+    display: block;
+  }
+
+  .icon_responsive {
+    color: #fff;
+    padding: 7px 10px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+  }
+
+  .header_title {
+    font-size: 18px;
+  }
+
+  .display {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    height: 90vh;
+    margin-top: 90px;
+  }
+
+  .display_col {
+    margin-top: 30px;
+  }
+
+  .display_col_down {
+    display: none;
+  }
+
+  .display_header_ornament {
+    display: flex;
+    margin-top: 60px;
+  }
+  .ornament {
+    display: block;
+    visibility: hidden;
+  }
+  .display_text_header {
+    text-align: center;
+  }
+
+  .display_content {
+    font-size: 24px;
+    color: var(--second-color);
+    text-align: center;
+  }
+
+  .display_header_content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0;
+  }
+
+  .display_desc {
+    font-size: 12px;
+    color: var(--third-color);
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .img_display {
+    margin-right: 0;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+
+  .btn_download {
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .btn {
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    color: #f3f6ff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .display_icon {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .img_thumb {
+    border-bottom: 3px solid #4e4e4e;
+  }
+}
